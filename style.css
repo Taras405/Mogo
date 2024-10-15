@@ -31,9 +31,17 @@ a{
 }
 
 .a-li:hover{
-    color: #F38181;
-    text-decoration: underline;
-    
+    color: #F38181; 
+}
+
+.a-li::before {
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -26px;
+    height: 3px; 
+    background-color: #ff6565;
+    margin: 10px auto 0;
 }
 
 h1{
@@ -183,9 +191,16 @@ form{
     font-weight: bold;
     font-size: 14px;
     text-align: center;
+    cursor: pointer;
 }
 
-
-
-
-
+.secvices::before {
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -56px;
+    width: 60px; 
+    height: 4px; 
+    background-color: #ff6565;
+    margin: 10px auto 0;
+}
